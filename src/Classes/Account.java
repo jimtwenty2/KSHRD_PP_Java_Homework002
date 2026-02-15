@@ -16,22 +16,27 @@ public class Account implements IAccount {
     public double getBalance() {
         return balance;
     }
+
     @Override
     public void setUserName(String userName) {
         this.userName = userName;
     }
+
     @Override
     public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+
     @Override
     public void setGender(Gender gender) {
         this.gender = gender;
     }
+
     @Override
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
     @Override
     public boolean deposit(double amount){
         if(amount <=0 ) return false;
@@ -55,12 +60,13 @@ public class Account implements IAccount {
     }
     @Override
     public void displayAccountInfo() {
-        System.out.println("Classes.Account Type : " + this.getClass().getSimpleName());
-        System.out.println("Classes.Account Number : " + accountNumber);
-        System.out.println("Classes.User Name : " + userName);
+        System.out.println("Account Type : " + this.getClass().getSimpleName());
+        System.out.println("Account Number : " + accountNumber);
+        System.out.println("User Name : " + userName);
         System.out.println("Date of Birth : " + dateOfBirth);
         System.out.println("Gender : " + gender);
         System.out.println("Phone Number : " + phoneNumber);
-        System.out.println("Balance : " + balance);
+        System.out.println("Balance : $" + balance);
+        System.out.println("=".repeat(60));
     }
 }
