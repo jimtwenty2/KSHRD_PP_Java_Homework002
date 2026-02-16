@@ -1,8 +1,7 @@
 package Utils;
-
 public class Banner {
     public static void showBannerOne(String text){
-        int width = 60;
+        int width = 70;
         int padding = (width - text.length()) / 2;
         System.out.println(Color.BLUE + "-".repeat(width));
         System.out.print("|");
