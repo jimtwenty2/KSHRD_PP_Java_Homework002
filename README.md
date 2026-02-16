@@ -18,9 +18,9 @@ The `Classes.Account` class should define the following methods:
 (accountNumber,userName, dateOfBirth, gender, phoneNumber, balance, rate=0.05)`
 
 ## III. Required Features
-1. **Create Classes.Account** - Allow users to create both Saving and Checking accounts with complete user information.
+1. **Create Account** - Allow users to create both Saving and Checking accounts with complete user information.
 2. **Deposit Money** - Enable deposits into existing accounts with validation.
 3. **Withdraw Money** - Allow withdrawals with sufficient balance checking.
 4. **Transfer Money** - Transfer amounts between accounts (both Checking and Saving).
-5. **Display Classes.Account Information** - Show complete account details including balance and (for Saving accounts) interest rate
-6. **Delete Classes.Account** - Remove accounts from the system with confirmation.
+5. **Display Account Information** - Show complete account details including balance and (for Saving accounts) interest rate
+6. **Delete Account** - Remove accounts from the system with confirmation.
